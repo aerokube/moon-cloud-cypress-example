@@ -1,0 +1,17 @@
+{
+  "name": "moon-cloud-cypress-example",
+  "version": "1.0.0",
+  "description": "A minimalist example of running Cypress tests with Moon Cloud",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aerokube/moon-cloud-cypress-example.git"
+  },
+  "scripts": {
+    "test": "cypress-moon https://test:test-password@my-cluster.cloud.aerokube.com/cypress/chrome/cypress-7.6.0"
+  },
+  "devDependencies": {
+    "@aerokube/cypress-moon": "^1.0.0",
+    "mocha": "^9.0.1"
+  }
+}
